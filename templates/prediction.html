@@ -11,47 +11,51 @@
 
     <title>Prediction</title>
   </head>
-  <body>
-    <header class="text-gray-600 body-font">
-        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-          <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-purple-500 rounded-full" viewBox="0 0 24 24">
-              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-            </svg>
-            <span class="ml-3 text-xl">Fake News Detection</span>
-          </a>
-          <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-            <a class="mr-5 hover:text-gray-900">Home</a>
-            <a class="mr-5 hover:text-gray-900">About us</a>
-            <a class="mr-5 hover:text-gray-900">Prediction</a>
- 
-          </nav>
-           
+  <body class="bg-green-50	background-color: rgb(240 253 244);">
+    <header class="text-gray-600 body-font -my-6">
+      <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+        <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-green-500 rounded-full" viewBox="0 0 24 24">
+            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+          </svg>
+          <span class="ml-3 text-xl">FAKE OR REAL</span>
+        </a>
+        <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+          <a href="/"class="mr-5 hover:text-gray-900">Home</a>
+          <a class="mr-5 hover:text-gray-900">About us</a>
+          <a href="/prediction" class="mr-5 hover:text-gray-900">Prediction</a>
+        </nav>
+          
+      </div>
+    </header> <hr>
+          <section class="text-gray-600 body-font">
+        <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Fake News Detection Using Machine Learning</h1>
+      <p class="mb-8 leading-relaxed">A fake news prediction web application using machine learning algorithms deployed using Heroku </p>
+      <from action ="/prediction" methods == "POST">
+      <center>
+        <br><b><p class="text-primary">{{prediction_text =='News Headline is -> {}'.format (prediction)}}</b></p></div></center> 
         </div>
-      </header>
+         <from action="/prediction"method = "GET">
+          <div class="p-2 w-full">
+          <div class="relative">
+       <label for="message" class="leading-7 text-sm text-gray-600">Enter your text</label>
+       <div class="mb-3">
+       <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+     </div>
+     <center>
+     <button class="text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button></center>
+    </div>
+  </form>
 
-    <form action="/prediction" method="POST">
-      <section class="text-gray-600 body-font">
-        <div class="container px-5 py-24 mx-auto">
-          <div class="flex flex-col text-center w-full mb-20">
-            <h2 class="text-xs text-purple-500 tracking-widest font-medium title-font mb-1"></h2>
-            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">FAKE OR REAL</h1>
-            <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p>
-              <br><p class ="text-primary">{{prediction_text}}</b></p>
-              <div class='center'>
-                <form>
-                    <div class="mb-3">
-                      <label for="exampleInputEmail1" class="form-label">Enter News</label>
-                      <input type="text" class="form-control" id="news" name="news">
-                      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                   else.</div>
-                    
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                  </form>   
-              </div>
-              
-            </div>
+</div>
 
+</div>
+</div>
+    </section>
+    
+    
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
